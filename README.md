@@ -1,7 +1,7 @@
 # Election_analysis
 
 ## Overview of Election Audit
-A member of the Colorado Board of Elections gave me a series of tasks to complete an audit of the most recent congressional election to ensure election integrity. The tasks are as follows <br/>
+A member of the Colorado Board of Elections gave me a series of tasks to complete an audit of the most recent congressional election to ensure election integrity. The tasks are as follows: <br/>
 1. Total number of votes cast <br/>
 2. A complete list of candidates who received votes <br/>
 3. Total number of votes and percentage each candidate won <br/>
@@ -16,11 +16,6 @@ A member of the Colorado Board of Elections gave me a series of tasks to complet
 - Stockham received 23% of the vote and 85,213 votes. Degette Received 73.8% of the vote and 272,892 votes. Doane received 3.1% of the vote and 11,606 votes
 - The winner of the election was Diana DeGette who received 73.8% of the total vote and 272,892 votes out of 369, 711 total votes. 
 
-
-## Resources Used
-- Software: Python 3.9.0, Visual Studio Code 1.52.1
-- Data Source: election_results.csv from supervisor.
-
 ## Audit Summary
 The script I wrote for this election audit can be easily edited and used for any other election. I propose that you save and modify this script for future elections to avoid errors and increase audit efficiency. 
 
@@ -33,9 +28,9 @@ You can reuse and modify a lot of the beginning script pictured below. For examp
 Additionally, looking further into the code. It is evident how the script structure can be modified for your needs. Firstly, the step by step directions in the script comments can make it very easy to adjust code. Secondly, the variables scripted can be adjusted to meet your project's needs. This is true whether you need to add variables or more conditions to your statements. See image of the script below:
 <br/> ![election2](election2.png)
 
-
-
-
+## Resources Used
+- Software: Python 3.9.0, Visual Studio Code 1.52.1
+- Data Source: election_results.csv from supervisor.
 
 
 
