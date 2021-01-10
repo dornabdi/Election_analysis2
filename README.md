@@ -22,9 +22,14 @@ A member of the Colorado Board of Elections gave me a series of tasks to complet
 - Data Source: election_results.csv from supervisor.
 
 ## Audit Summary
- The script I wrote for this election audit can be easily edited and used for any other election. I propose you save and modify this script for future elections to increase audit efficiency and avoid errors.
+The script I wrote for this election audit can be easily edited and used for any other election. I propose that you save and modify this script for future elections to avoid errors and increase audit efficiency.
 
-This script pulls data from the election_data.csv file that was provided to me to perform this analysis. The process I used to extract this data can be used for any other csv file.
+<br/> This script pulls data from the election_data.csv file that was provided to me to perform this analysis. The process I used to extract this data can be used for any other csv file. You can reuse and modify a lot of the beginning script pictured below. For example, you can view your csv file and adjust the row function to match your dataset. You can keep the same for-loop scripting for reading the data and modify the last two lines of code for more relevant parameters. See image of script below:
+<br/> ![election1](election.png)
+
+
+
+
 
 I use the file_to_load variable to locate the file on my drive by using the names of the folders the file is nested in and the name of the file in paraentheses separated by commas. I use the file_to_save variable to create a file for the results to be uploaded to for this particular election. By importing the os and csv modules, the script allows us to locate and update these files. The file_to_load and file_to_save_ variable can be easily modified to use towards the file for any election and to save the results under any file name by updating the values in the parentheses to be the relevent file names and folders the files are in.
 
